@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.resources     = ['*.bundle', '*.strings']
   s.requires_arc  = true
 
-  s.dependency "React"
+  #s.dependency "React"
   s.dependency 'Meiqia', '~> 3.4.9'
 
 end
